@@ -7,7 +7,7 @@
                         document.write(new Date().getFullYear())
                     </script>,
                     made with <i class="fa fa-heart"></i> by
-                    <a href="https://github.com/mrcandev/Laravel-Task-Management-Example" class="font-weight-bold" target="_blank">mrcandev</a>
+                    <a href="http://glow4up.com/" class="font-weight-bold" target="_blank">GlowUp</a>
                     for a better web.
                 </div>
             </div>
