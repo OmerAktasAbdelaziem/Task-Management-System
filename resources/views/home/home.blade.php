@@ -333,12 +333,6 @@
     </div>
 
 
-
-
-
-    {{-- MODALS --}}
-
-
     {{-- ADD NEW PROJECT --}}
     <div class="modal fade" id="add-new-project" tabindex="-1" role="dialog" aria-labelledby="add-new-project" aria-hidden="true">
         <div class="modal-dialog modal- modal-dialog-centered modal-lg" role="document">
@@ -434,8 +428,6 @@
 @section('extraScript')
     <script>
         $(document).ready(function() {
-
-
             $('.toggle-completion').change(function() {
                 var taskId = $(this).data('task-id');
                 var isChecked = $(this).is(':checked');
@@ -484,7 +476,6 @@
                 });
             });
 
-            // Drag and drop işlemi için sortable'ı etkinleştirme
             var el = document.querySelector('.list-group');
             var sortable = Sortable.create(el, {
                 animation: 150,
@@ -526,10 +517,6 @@
                     });
                 }
             });
-
-
-
-
         });
     </script>
 
